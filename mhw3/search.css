@@ -1,0 +1,149 @@
+body{
+    background-color: #054553;
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+nav{
+    background-color: white;
+    color: black;
+
+    display:flex;
+    justify-content: space-around;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    align-items: center;
+}
+
+.img_disney{
+    width: 50%;
+}
+
+form{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#character{
+    border-radius: 15px;
+    border: none;
+}
+
+
+#submit{
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#lente{
+    width: 10px;
+}
+
+#submit:hover{
+    background-color: #F1F2F9;
+}
+
+#library-view{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.character-info{
+    background-color: #F1F2F3;
+    margin: 10px;
+    padding: 20px;
+    width: 1000px;
+    font-size: 20px;
+}
+
+.character-info img{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 0px;
+}
+
+.character-info h3{
+    text-align: center;
+    margin-top: 5px;
+    color: #054553;
+    font-weight: bold;
+}
+
+.character-info p{
+    margin-bottom: 5px;
+}
+
+.character-info .colorSpan{
+    color: #054553;
+    font-weight: bold;
+}
+
+.hidden{
+    display: none;
+}
+
+.error-hidden{
+    display: none;
+}
+
+footer{
+    margin-top: 50px;
+    background-color:white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer_inizio{
+    font-size: 20px;
+    padding-top: 18px;
+}
+
+#footer_social{
+    margin-top: -15px;
+}
+
+.social_img{
+    margin-right: 10px;
+}
+
+#footer_disney{
+    width: 80px;
+    margin-top: 40px;
+}
+
+#footer_container_link{
+    margin-top: 20px;
+}
+
+#footer_container_link a{
+    font-size: 12px;
+    padding: 0 9px;
+    color: black;
+    font-family:Nunito Sans;
+}
+
+#footer_container_link a:hover{
+    color:#0077da;
+}
+
+#footer_fine{
+    font-size: 11px;
+    margin-top: 35px;
+    font-family: Roboto Slab;
+}
